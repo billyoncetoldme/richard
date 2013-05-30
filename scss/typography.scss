@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'ExistenceLight';
+    src: url('fonts/Existence-Light-webfont.eot');
+    src: url('fonts/Existence-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Existence-Light-webfont.woff') format('woff'),
+         url('fonts/Existence-Light-webfont.ttf') format('truetype'),
+         url('fonts/Existence-Light-webfont.svg#ExistenceLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ExistenceUnicaseLight';
+    src: url('fonts/Existence-UnicaseLight-webfont.eot');
+    src: url('fonts/Existence-UnicaseLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Existence-UnicaseLight-webfont.woff') format('woff'),
+         url('fonts/Existence-UnicaseLight-webfont.ttf') format('truetype'),
+         url('fonts/Existence-UnicaseLight-webfont.svg#ExistenceUnicaseLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ExistenceStencilLight';
+    src: url('fonts/Existence-StencilLight-webfont.eot');
+    src: url('fonts/Existence-StencilLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Existence-StencilLight-webfont.woff') format('woff'),
+         url('fonts/Existence-StencilLight-webfont.ttf') format('truetype'),
+         url('fonts/Existence-StencilLight-webfont.svg#ExistenceStencilLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.logotext{
+	font-size: 250%
+}
+.logotext, a{
+	font-family: 'ExistenceUnicaseLight';
+	letter-spacing: .125em
+}
+
+a{
+	color: #ACBABF
+}

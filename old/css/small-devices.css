@@ -1,0 +1,43 @@
+#wrapper{
+    max-width: 480px;
+    margin: 0 auto;
+}
+#bio {
+    height: 159px;
+    width: 159px;
+    margin: 0 1px 1px 0;
+    background-color: green;
+    position: relative;
+    float: left;
+    
+}
+#audio {
+    height: 159px;
+    width: 159px;
+    margin: 0 0 1px 1px;
+    background-color: red;
+    position: relative;
+    float: left;
+}
+#video {
+    height: 159px;
+    width: 159px;
+    margin: 1px 1px 0 0;
+    background-color: blue;
+    position: relative;
+    float: left;
+}
+#images {
+    height: 159px;
+    width: 159px;
+    margin: 1px 0 0 1px;
+    background-color: black;
+    position: relative;
+    float: left;
+}
+#logo{
+    position: relative;
+    font-size: 1.5rem;
+    margin: 0rem 0rem -0.5rem 0rem;
+    z-index: 5
+}

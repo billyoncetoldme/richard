@@ -1,0 +1,72 @@
+
+#container1, #container2, #container3, #container4{
+	height: 1000px;
+	width: 100%
+}
+#container1 nav{
+	position: relative;
+	bottom: 25em;
+	right: 2em;
+	float: right;
+}
+#container1 li{
+	margin-right: .125em;	
+}
+#container2{
+	margin-bottom: 1em
+}
+/*------------------------------------------------images page content*/
+#content {
+	/*width: 980px;*/
+	/*width: 95%;*/
+	width: auto;
+	margin: 0 auto;
+}
+
+.item {
+	display: block;
+	float: left;
+	width: 300px;
+	margin: 0 2px 2px 0;
+	-webkit-transition: left .4s ease-in-out, top .4s ease-in-out .4s;
+	-moz-transition: left .4s ease-in-out, top .4s ease-in-out .4s;
+	-ms-transition: left .4s ease-in-out, top .4s ease-in-out .4s;
+	-o-transition: left .4s ease-in-out, top .4s ease-in-out .4s;
+	transition: left .4s ease-in-out, top .4s ease-in-out .4s;
+}
+
+.featured {
+	width: 620px;
+}
+
+.item img {
+	width: 300px;
+	height: auto;
+}
+
+.featured img {
+  width: 600px;
+  height: auto;
+  padding: 5px;
+  box-shadow: 0px 3px 5px red;
+  z-index: 10
+}
+/*------------------------------------------------end images page content*/
+
+/*--------------------------about section*/
+article{
+	padding: 3em;
+	margin: 0 2em;
+	border: 1px solid;
+	border-radius: 15px;
+	background-color: #F0F0F0;
+	font-family: arial;
+}
+
+/*filler for testing */
+#dummy{
+	background-color: red;
+	width: 500px;
+	height: 500px;
+	margin-top: 1000px
+}
