@@ -5691,6 +5691,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
 .carousel-control.right {
   left: auto;
   right: 15px;
+  letter-spacing: -.5em
 }
 .carousel-control:hover, .carousel-control:focus {
   color: white;

@@ -1,7 +1,11 @@
 
-#container1, #container2, #container3, #container4{
+#container1, #container2, #container3, #container4, #container5{
 	height: 1000px;
-	width: 100%
+	width: 100%;
+
+}
+#container2, #container3, #container4, #container5{
+	margin-top: 50em;
 }
 #container1 nav{
 	position: relative;
@@ -15,44 +19,37 @@
 #container2{
 	margin-bottom: 1em
 }
-/*------------------------------------------------images page content*/
-#content {
-	/*width: 980px;*/
-	/*width: 95%;*/
-	width: auto;
-	margin: 0 auto;
+#container3{
+	background-color: gray;
 }
-
-.item {
-	display: block;
-	float: left;
-	width: 300px;
-	margin: 0 2px 2px 0;
-	-webkit-transition: left .4s ease-in-out, top .4s ease-in-out .4s;
-	-moz-transition: left .4s ease-in-out, top .4s ease-in-out .4s;
-	-ms-transition: left .4s ease-in-out, top .4s ease-in-out .4s;
-	-o-transition: left .4s ease-in-out, top .4s ease-in-out .4s;
-	transition: left .4s ease-in-out, top .4s ease-in-out .4s;
+/*----------------------------------------------global carousel elements */
+.carousel-indicators li{
+	background-color: #A89D9D;
+	margin-top: 15%;
 }
-
-.featured {
-	width: 620px;
+.carousel-control{
+	top: 50%;
+	line-height: 35px
 }
-
-.item img {
-	width: 300px;
-	height: auto;
+.carousel-control-right{
+	right: 1px
 }
-
-.featured img {
-  width: 600px;
-  height: auto;
-  padding: 5px;
-  box-shadow: 0px 3px 5px red;
-  z-index: 10
+.carousel-indicators .active{
+	background-color: black
 }
-/*------------------------------------------------end images page content*/
-
+/*----------------------------------------------end global carousel elements */
+/*----------------------------------------------image carousel elements */
+#imageCarousel{
+	width: 100%
+}
+/*----------------------------------------------end image carousel elements */
+/*----------------------------------------------video carousel elements */
+#videoCarousel{
+	width: 640px;
+	height: 354px;
+	margin: 100px auto;
+}
+/*----------------------------------------------end carousel elements */
 /*--------------------------about section*/
 article{
 	padding: 3em;
